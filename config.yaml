@@ -5,7 +5,7 @@ pipeline:
     embedding: speechbrain/spkrec-ecapa-voxceleb
     embedding_batch_size: 32
     embedding_exclude_overlap: true
-    segmentation: pytorch_model.bin
+    segmentation: ./transcribation_with_speakers/pytorch_model.bin
     segmentation_batch_size: 32
 
 params:
